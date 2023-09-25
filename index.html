@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Langs Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14b5cefaaf.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/IMG-20230402-WA0000.jpeg" class="IMG-20230402-WA0000">
+            <ul id="sidemenu"> 
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()" style="color: #e90808;"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()" style="color: #f00b0b;"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Benjamin Langs</span><br> From California</h1>
+        </div>
+    </div>
+</div>
+<!----------about---------->
+<div id="about">
+    <div class="container">
+       <div class="row">
+            <div class="about-col-1">
+                <img src="Images/IMG-20210909-WA0003.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I started my journey in coding in the fall of 2023, with the goal to improve in coding by 1% each day. 
+                    In the picture to the left is a photo of me and my daughter Sabrina. My daughter is my entire world and is my constant source of inspiration to learn and improve every moment. 
+                    By the end of this boot-camp, I will have this portfolio filled with examples of my work that I can be proud of. I will use this knowledge I gained to provide a better life for myself and my daughter.
+
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience" >
+                        <ul>
+                            <li><span>2023 - Current</span><br>Full Stack Boot-Camp training at UC Davis</li>
+                            <li><span>2023 - 2010</span><br>Radiology scheduler for Kasier Permanente</li>
+                            <li><span>2010 - 2004</span><br>Carpenter at Advance Decking</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Certificate of Completion in Full Stack Boot-Camp UC Davis</li>
+                            <li><span>2023</span><br>Associate Degree in Social Sciences American River College</li>
+                            <li><span>2004</span><br>High School Diploma Visions in Education</li>
+                        </ul>
+                    </div>
+        </div>
+    </div> 
+</div>
+<!-------------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-magnet" style="color: #eff1f6;"></i>
+                <h2>Web Design</h2>
+                <p>---------Information Coming Soon-----------------</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-paper-plane" style="color: #f1f2f4;"></i>
+                <h2>UI/UX Design</h2>
+                <p>---------Information Coming Soon-----------------</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-codepen" style="color: #fafafa;"></i>
+                <h2>App Design</h2>
+                <p>---------Information Coming Soon-----------------</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+        <!--------------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/IMG-20160524-WA0000.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to many talented people around the world. Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-link" style="color: #f2f2f3;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/IMG-20221117-WA0005.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to many talented people around the world. Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-link" style="color: #f2f2f3;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/IMG-20220803-WA0001.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to many talented people around the world. Download it from the play store.</p>
+                    <a href="#"><i class="fa-solid fa-link" style="color: #f2f2f3;"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>        
+
+<!---------------------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope" style="color: #e5e7eb;"></i> ben.langs@yahoo.com</p>
+                <p><i class="fa-solid fa-mobile" style="color: #ebeff4;"></i> 916-247-7053</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/benjamin-f-langs-960215268"><i class="fa-brands fa-linkedin" style="color: #ebeef5;"></i></a>
+                    <a href="https://twitter.com/BennyBlanco1988"><i class="fa-brands fa-twitter" style="color: #f9fafa;"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook" style="color: #f7f7f8;"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram" style="color: #f1f4f8;"></i></a>
+                </div>
+                <a href="Images/AB.Langs.Ben.REV.1.PDF.VERSION (1).pdf" download class="btn bt2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    
+</div>
+
+<script>
+
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+        
+    }
+
+
+</script> 
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+
+
+</script>
+
+  
+
+</body>
+</html>
